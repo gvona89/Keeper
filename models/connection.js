@@ -1,6 +1,4 @@
-/* Import the mongoose module
- *
- */
+
 const mongoose = require('mongoose');
 
 /* Step 1.
