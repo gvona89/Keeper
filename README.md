@@ -10,7 +10,7 @@
  ![alt text](client/public/WireFrame/WireFrame2.jpg "wireframe 2")
  ![alt text](client/public/WireFrame/WireFrame3.jpg "wireframe 3")
 ## ERD
-![alt text](client/public/ERD/ERD.jpg)
+![alt text](client/public/ERD/ERD.jpg "erd image")
 
 ## Project Board 
 * [Project Board](https://github.com/gvona89/keeper/projects/1)
