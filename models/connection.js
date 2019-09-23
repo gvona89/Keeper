@@ -1,12 +1,6 @@
 
 const mongoose = require('mongoose');
 
-/* Step 1.
- *
- * TODO: replace <db-name> with the name of your mongo database. 
- * This will need to change for every new project you create.
- *
- */
 const connectionString = process.env.MONGODB_URI || "mongodb://localhost/keeper";
 
 
