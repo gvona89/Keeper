@@ -1,12 +1,5 @@
-/* 
- * import mongoose connection
- */
-
 const mongoose = require('./connection.js')
 
-/* 
- * model schema 
- */
 
 const logSchema = new mongoose.Schema({
   userId: {
@@ -57,9 +50,7 @@ logSchema.pre('save', function(next){
   next();
 });
 
-/*
- * collection APIs
- */
+
 const LogCollection = mongoose.model('Logs', logSchema)
 
 module.exports = LogCollection 
