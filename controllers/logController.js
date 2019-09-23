@@ -19,7 +19,17 @@ router.route('/').post((req, res) => {
   const frameNumber = req.body.frameNumber
   const comments = req.body.comments
 
-  const newLog = new Log({ userId, timeStamp, yearNumber, weekNumber, dayNumber, boxType, boxNumber, frameNumber, comments })
+  const newLog = new Log({ 
+    userId, 
+    timeStamp, 
+    yearNumber, 
+    weekNumber, 
+    dayNumber, 
+    boxType, 
+    boxNumber, 
+    frameNumber, 
+    comments 
+  })
 
   newLog.save()
     .then(() => res.json('Log Added'))
