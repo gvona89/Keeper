@@ -15,8 +15,8 @@ router.route('/').post((req, res) => {
   const weekNumber = Number(req.body.weekNumber)
   const dayNumber = Number(req.body.dayNumber)
   const boxType = req.body.boxType
-  const boxNumber = req.body.boxNumber
-  const frameNumber = req.body.frameNumber
+  const boxNumber = Number(req.body.boxNumber)
+  const frameNumber = Number(req.body.frameNumber)
   const comments = req.body.comments
 
   const newLog = new Log({ 
