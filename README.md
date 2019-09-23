@@ -16,7 +16,7 @@
 * [Project Board](https://github.com/gvona89/keeper/projects/1)
 * [Heroku](https://aqueous-spire-04477.herokuapp.com/keeperlog)
 
-## Technology
+## Technology Used
 * React.js 
 * MongoDb 
 * Github 
