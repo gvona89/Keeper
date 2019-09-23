@@ -1,12 +1,6 @@
-/* 
- * import mongoose connection
- */
-
 const mongoose = require('./connection.js')
 const ObjectId = mongoose.Types.ObjectId
-/* 
- * model schema 
- */
+
 
 const userSchema = new mongoose.Schema({
   userName: {
@@ -56,9 +50,7 @@ const userSchema = new mongoose.Schema({
   }
 })
 
-/*
- * collection APIs
- */
+
 const UserCollection = mongoose.model('Users', userSchema)
 
 
