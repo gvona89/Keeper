@@ -17,5 +17,8 @@
 * [Heroku](https://aqueous-spire-04477.herokuapp.com/keeperlog)
 
 ## Technology
-* React.js, MongoDb, Github, CSS, HTML, Heroku, Mongoose, Express
+* React.js 
+* MongoDb 
+* Github 
+* CSS, HTML, Heroku, Mongoose, Express
 
