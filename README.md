@@ -10,6 +10,18 @@
 * [Heroku](https://aqueous-spire-04477.herokuapp.com/keeperlog)
 
 
+## Technology Used
+
+* React.js 
+* MongoDb 
+* Github 
+* CSS
+* HTML
+* Heroku 
+* Mongoose 
+* Express
+
+
 ## WireFrame
 
  ![alt text](client/public/WireFrame/WireFrame0.jpg "wireframe 0")
@@ -22,14 +34,4 @@
 
 ![alt text](client/public/ERD/ERD.jpg "erd image")
 
-## Technology Used
-
-* React.js 
-* MongoDb 
-* Github 
-* CSS
-* HTML
-* Heroku 
-* Mongoose 
-* Express
 
