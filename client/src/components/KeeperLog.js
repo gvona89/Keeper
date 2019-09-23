@@ -133,14 +133,14 @@ export default class KeeperLog extends Component {
                             <p>Box Type : {log.boxType}</p>
                             <p>Box No. : {log.boxNumber}</p>
                             <p>Frame No. : {log.frameNumber}</p>
-                            <p>Comments : {log.comments}</p>
+                            <p>Comments : </p><p>{log.comments}</p>
                         </div>
                     )
                 })}
 
                 <LogForm
                     addNewLog={this.sendNewLogToServer} />
-                <button onClick={this.toggleRegistration}>Admin</button>
+                <button class="admin" onClick={this.toggleRegistration}>Admin</button>
 
                 {this.state.registration ? <UserRegistration addNewRegister={this.newRegistrationInfo} /> : null}
 
