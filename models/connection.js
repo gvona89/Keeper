@@ -10,10 +10,5 @@ mongoose.connect(connectionString, { useNewUrlParser: true})
   });
 
 
-/* Export the mongoose object.
- *
- * This will allow us to use the same connection to our DB
- * across our different controllers.
- *
- */
+
 module.exports = mongoose
