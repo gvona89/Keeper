@@ -20,5 +20,9 @@
 * React.js 
 * MongoDb 
 * Github 
-* CSS, HTML, Heroku, Mongoose, Express
+* CSS
+* HTML
+* Heroku 
+* Mongoose 
+* Express
 
