@@ -1,6 +1,4 @@
 const mongoose = require('./connection.js')
-const ObjectId = mongoose.Types.ObjectId
-
 
 const userSchema = new mongoose.Schema({
   userName: {
